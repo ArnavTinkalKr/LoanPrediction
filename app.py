@@ -1,4 +1,6 @@
 # save this as app.py
+# pylint: disable=unused-import
+import sklearn
 from flask import Flask, escape, request, render_template
 import pickle
 import numpy as np
